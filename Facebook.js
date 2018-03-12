@@ -113,7 +113,7 @@ class Facebook {
   static callSendAPI(messageData) {
     requemise.req({
       uri: 'https://graph.facebook.com/v2.6/me/messages',
-      qs: { access_token: '***' },
+      qs: { access_token: 'EAAaKbV7x2L8BALkLKri0EXbgZAKWaxxZBZASt2SmhWP78Fr8cS4yZBAlzHZBEN7zJt7UZAN4wB5zWtdrpBZBkIZBnNuL7W3q6U7RZCybHioc0WIA1D02vZCZAmrqDluPtUJ9hC9IGkCShZBLZAwOjiVutrpe6h2fKAGjsXbcKemhHOqPmOwZDZD' },
       method: 'POST',
       json: messageData
 
@@ -141,7 +141,7 @@ class Facebook {
   static callProfileAPI(messageData) {
     requemise.req({
       uri: 'https://graph.facebook.com/v2.6/me/messenger_profile',
-      qs: { access_token: '***' },
+      qs: { access_token: 'EAAaKbV7x2L8BALkLKri0EXbgZAKWaxxZBZASt2SmhWP78Fr8cS4yZBAlzHZBEN7zJt7UZAN4wB5zWtdrpBZBkIZBnNuL7W3q6U7RZCybHioc0WIA1D02vZCZAmrqDluPtUJ9hC9IGkCShZBLZAwOjiVutrpe6h2fKAGjsXbcKemhHOqPmOwZDZD' },
       method: 'POST',
       json: messageData
 
